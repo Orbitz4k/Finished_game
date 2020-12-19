@@ -14,6 +14,7 @@ public class MoveFoward : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
+        //Moves the enemies towards the player
         transform.Translate(Vector3.up * Time.deltaTime * speed);
     }
 }
